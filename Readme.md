@@ -19,7 +19,8 @@ If you try to run the demo, you can follow the steps below.
     *Demo.zip Hierarchical directory*
     ```
     │Demo.zip/
-    ├──View.zip/
+    ├──Demo_video.mp4/
+    ├──View/
       ├── run_view  #This is an exe file
       ├── ......
     ├──Dataset/
@@ -35,12 +36,26 @@ If you try to run the demo, you can follow the steps below.
          ├── LFW
          ├── MultiPIE
          ├── VGGFace
+    ├──Our_deblurred_results
+      ├── Real-World  #Each dataset includes a subfile of Deblurred
+         ├── real_img_al
+         ├── real_img
+      ├── Synthetic  #Each dataset includes a subfile of Deblurred
+         ├── CelebA
+         ├── CelebA_al
+         ├── FFHQ
+         ├── Helen
+         ├── Helen_al
+         ├── LFW
+         ├── MultiPIE
+         ├── VGGFace
     ```
 
 
-2. Unzip View.zip and run the run_view file
+2. Enter the View directory and run the run_view file
 
     ```bash
+    cd View
     ./run_view
     ```
 
