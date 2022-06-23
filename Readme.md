@@ -51,5 +51,3 @@ If you try to run the demo, you can follow the steps below.
       -  Real-World do not have GT(the ground truth) image, so its GT path can be replaced by blurred image path.
       -  You can view all deblurred images in the result save directory to avoid missing the display process.
 
-      
-If you have any question, please email `xuyu@st.xatu.edu.cn` or `xuyu7834@gmail.com`.
